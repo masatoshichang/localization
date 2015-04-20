@@ -1,1 +1,1 @@
-# Tickle Localization Strings
+# Tickle Localization Resources
