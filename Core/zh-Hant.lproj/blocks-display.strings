@@ -1,0 +1,372 @@
+/* selector = forward: */
+"move %d steps" = "移動 %d 步";
+
+/* selector = forward:atHeading: */
+"move %d steps at %d.direction degrees" = "move %d steps at %d.direction degrees";
+
+/* selector = moveForSec:atSpeed: */
+"@_deviceObjectType_ move for %d secs at %d % speed" = "@_deviceObjectType_ move for %d secs at %d % speed";
+
+/* selector = moveByDirection:forSec: */
+"@_deviceObjectType_ move %ms.4wayDirections for %d secs" = "@_deviceObjectType_ move %ms.4wayDirections for %d secs";
+
+/* selector = startMoveAtSpeed: */
+"@_deviceObjectType_ start moving at %d % speed" = "@_deviceObjectType_ start moving at %d % speed";
+
+/* selector = speed: */
+"@_deviceObjectType_ set speed to %d %" = "@_deviceObjectType_ set speed to %d %";
+
+/* selector = takeOff */
+"@_deviceObjectType_ take off" = "@_deviceObjectType_ take off";
+
+/* selector = stopMove */
+"@_deviceObjectType_ stop moving" = "@_deviceObjectType_ stop moving";
+
+/* selector = land */
+"@_deviceObjectType_ land" = "@_deviceObjectType_ land";
+
+/* selector = maximumHeight: */
+"@_deviceObjectType_ set maximum height to %d m" = "@_deviceObjectType_ set maximum height to %d m";
+
+/* selector = moveUpDown:forSec: */
+"@_deviceObjectType_ move %ms.udDirection for %d secs" = "@_deviceObjectType_ move %ms.udDirection for %d secs";
+
+/* selector = turn:byDegree: */
+"@_deviceObjectType_ turn %ms.rlDirection by %d degrees" = "@_deviceObjectType_ turn %ms.rlDirection by %d degrees";
+
+/* selector = heading: */
+"@_deviceObjectType_ set heading to %d degrees" = "@_deviceObjectType_ set heading to %d degrees";
+
+/* selector = direction: */
+"set direction to %d.direction degrees" = "set direction to %d.direction degrees";
+
+/* selector = spinTimes:forSec: */
+"@_deviceObjectType_ spin %d times for %d seconds" = "@_deviceObjectType_ spin %d times for %d seconds";
+
+/* selector = pointTowards: */
+"point towards %m.characterOrTouchPoint" = "point towards %m.characterOrTouchPoint";
+
+/* selector = gotoX:y: */
+"go to x:%d y:%d" = "go to x:%d y:%d";
+
+/* selector = gotoCharacterOrTouchPoint: */
+"go to %m.characterOrTouchPoint" = "go to %m.characterOrTouchPoint";
+
+/* selector = glideSecs:toX:y: */
+"glide %d secs to x:%d y:%d" = "glide %d secs to x:%d y:%d";
+
+/* selector = changePositionOf:by: */
+"change %ms.xyAxis by %d" = "change %ms.xyAxis by %d";
+
+/* selector = setPositionOf:to: */
+"set %ms.xyAxis to %d" = "set %ms.xyAxis to %d";
+
+/* selector = bounceOffEdge */
+"if on edge, bounce" = "if on edge, bounce";
+
+/* selector = startJumping */
+"@_deviceObjectType_ start to jump" = "@_deviceObjectType_ start to jump";
+
+/* selector = flipDevice: */
+"@_deviceObjectType_ flip" = "@_deviceObjectType_ flip";
+
+/* selector = takePhoto */
+"@_deviceObjectType_ take a photo" = "@_deviceObjectType_ take a photo";
+
+/* selector = position: */
+"%ms.xyAxis of position" = "%ms.xyAxis of position";
+
+/* selector = direction */
+"direction" = "direction";
+
+/* selector = heading */
+"@_deviceObjectType_ heading" = "@_deviceObjectType_ heading";
+
+/* selector = speed */
+"@_deviceObjectType_ speed" = "@_deviceObjectType_ speed";
+
+/* selector = say: */
+"say %s" = "說 %s";
+
+/* selector = think: */
+"think %s" = "think %s";
+
+/* selector = show */
+"show" = "show";
+
+/* selector = hide */
+"hide" = "hide";
+
+/* selector = setLooks: */
+"set looks to %m.looks" = "set looks to %m.looks";
+
+/* selector = startPlayLooks: */
+"start to play animation %m.looks" = "start to play animation %m.looks";
+
+/* selector = changeGraphicEffect:by: */
+"change %ms.effect effect by %d" = "change %ms.effect effect by %d";
+
+/* selector = setGraphicEffect:to: */
+"set %ms.effect effect to %d" = "set %ms.effect effect to %d";
+
+/* selector = clearGraphicEffects */
+"clear graphic effects" = "clear graphic effects";
+
+/* selector = changeScaleBy: */
+"change scale by %d %" = "change scale by %d %";
+
+/* selector = setScaleOf:to: */
+"set scale of %ms.whDirection2 to %d %" = "set scale of %ms.whDirection2 to %d %";
+
+/* selector = flip: */
+"flip %ms.hvDirection" = "flip %ms.hvDirection";
+
+/* selector = comeToFront */
+"go to front" = "go to front";
+
+/* selector = goBackByLayers: */
+"go back %d layers" = "go back %d layers";
+
+/* selector = scale: */
+"scale of %ms.whDirection2" = "scale of %ms.whDirection2";
+
+/* selector = visible */
+"visible" = "visible";
+
+/* selector = setColor: */
+"@_deviceObjectType_ change color to %c.color" = "@_deviceObjectType_ change color to %c.color";
+
+/* selector = setObjectNamed:toColor: */
+"@_deviceObjectType_ change color of %m.hubDeviceObjects to %c.color" = "@_deviceObjectType_ change color of %m.hubDeviceObjects to %c.color";
+
+/* selector = color */
+"@_deviceObjectType_ color" = "@_deviceObjectType_ color";
+
+/* selector = powerSwitch:name: */
+"@_deviceObjectType_ turn %m.powerSwitch %m.hubDeviceObjects" = "@_deviceObjectType_ turn %m.powerSwitch %m.hubDeviceObjects";
+
+/* selector = playSound: */
+"play sound %m.sound" = "play sound %m.sound";
+
+/* selector = playSoundAndWait: */
+"play sound %m.sound until done" = "play sound %m.sound until done";
+
+/* selector = stopAllSounds */
+"stop all sounds" = "stop all sounds";
+
+/* selector = changeVolumeBy: */
+"change volume by %d" = "change volume by %d";
+
+/* selector = setVolumeTo: */
+"set volume to %d%" = "set volume to %d%";
+
+/* selector = volume */
+"volume" = "volume";
+
+/* selector = readVariable: */
+"_variable_name_" = "_variable_name_";
+
+/* selector = setVar:to: */
+"set %ms.variable to %s" = "set %ms.variable to %s";
+
+/* selector = changeVar:by: */
+"change %ms.variable by %d" = "change %ms.variable by %d";
+
+/* selector = contentsOfList: */
+"_list_name_" = "_list_name_";
+
+/* selector = append:toList: */
+"add %s to %ms.list" = "add %s to %ms.list";
+
+/* selector = deleteLine:ofList: */
+"delete %ds.listDeleteItem of %ms.list" = "delete %ds.listDeleteItem of %ms.list";
+
+/* selector = insert:at:ofList: */
+"insert %s at %ds.listItem of %ms.list" = "insert %s at %ds.listItem of %ms.list";
+
+/* selector = setLine:ofList:to: */
+"replace item %ds.listItem of %ms.list with %s" = "replace item %ds.listItem of %ms.list with %s";
+
+/* selector = getLine:ofList: */
+"item %ds.listItem of %ms.list" = "item %ds.listItem of %ms.list";
+
+/* selector = countOfList: */
+"length of %ms.list" = "length of %ms.list";
+
+/* selector = list:contains: */
+"%ms.list contains %s" = "%ms.list contains %s";
+
+/* selector = whenStartPlay */
+"When starting to play" = "When starting to play";
+
+/* selector = whenNodeTouched: */
+"When this character %ms.nodeTouchEvent" = "When this character %ms.nodeTouchEvent";
+
+/* selector = whenCollisionDetected: */
+"When %ms.collisionDevices collides" = "When %ms.collisionDevices collides";
+
+/* selector = whenSensor:greaterThan: */
+"When %ms.triggerSensor > %d" = "When %ms.triggerSensor > %d";
+
+/* selector = whenReceive: */
+"When I receive %ss.broadcast" = "When I receive %ss.broadcast";
+
+/* selector = broadcast: */
+"broadcast %s.broadcast" = "broadcast %s.broadcast";
+
+/* selector = broadcastAndWait: */
+"broadcast %s.broadcast and wait" = "broadcast %s.broadcast and wait";
+
+/* selector = wait: */
+"wait %d secs" = "wait %d secs";
+
+/* selector = waitUntil: */
+"wait until %b" = "wait until %b";
+
+/* selector = repeat:do: */
+"repeat %d times" = "repeat %d times";
+
+/* selector = foreverDo: */
+"forever" = "forever";
+
+/* selector = repeatUntil:do: */
+"repeat until %b" = "repeat until %b";
+
+/* selector = if:do: */
+"if %b then" = "if %b then";
+
+/* selector = if:do:else: */
+"if %b then | else" = "if %b then | else";
+
+/* selector = stopScripts: */
+"stop %ms.stop" = "stop %ms.stop";
+
+/* selector = whenCloned */
+"When I start as a clone" = "When I start as a clone";
+
+/* selector = createCloneOf: */
+"create clone of %m.character" = "create clone of %m.character";
+
+/* selector = deleteClone */
+"delete this clone" = "delete this clone";
+
+/* selector = isClone */
+"I am a clone" = "I am a clone";
+
+/* selector = touching: */
+"touching %m.touching ?" = "touching %m.touching ?";
+
+/* selector = touchingColor: */
+"touching color %c?" = "touching color %c?";
+
+/* selector = color:sees: */
+"color %c is touching %c?" = "color %c is touching %c?";
+
+/* selector = distanceTo: */
+"distance to %m.characterOrTouchPoint" = "distance to %m.characterOrTouchPoint";
+
+/* selector = ask: */
+"ask %s and wait" = "ask %s and wait";
+
+/* selector = answer */
+"answer of last asked question" = "answer of last asked question";
+
+/* selector = touchingDown */
+"finger touching down?" = "finger touching down?";
+
+/* selector = touchPoint: */
+"%ms.xyAxis of touch point" = "%ms.xyAxis of touch point";
+
+/* selector = soundLevel */
+"loudness" = "loudness";
+
+/* selector = timer */
+"timer" = "timer";
+
+/* selector = timerReset */
+"reset timer" = "reset timer";
+
+/* selector = getAttribute:of: */
+"%ms._arg_input:objectOrStage.attribute of %m._refresh_.objectOrStage" = "%ms._arg_input:objectOrStage.attribute of %m._refresh_.objectOrStage";
+
+/* selector = timeAndDate: */
+"current %ms.timeAndDate" = "current %ms.timeAndDate";
+
+/* selector = timestamp */
+"days since 2000" = "days since 2000";
+
+/* selector = accelerometer:of: */
+"accelerometer %ms.xyzAxis of %ms.accelerometerDevices" = "accelerometer %ms.xyzAxis of %ms.accelerometerDevices";
+
+/* selector = attitude:of: */
+"attitude %ms.gyroDirections of %ms.attitudeDevices" = "attitude %ms.gyroDirections of %ms.attitudeDevices";
+
+/* selector = gyroscope:of: */
+"gyroscope %ms.xyzAxis of %ms.gyroDevices" = "gyroscope %ms.xyzAxis of %ms.gyroDevices";
+
+/* selector = + */
+"%d + %d" = "%d + %d";
+
+/* selector = - */
+"%d − %d" = "%d − %d";
+
+/* selector = * */
+"%d × %d" = "%d × %d";
+
+/* selector = / */
+"%d ÷ %d" = "%d ÷ %d";
+
+/* selector = % */
+"%d mod %d" = "%d mod %d";
+
+/* selector = < */
+"%s < %s" = "%s < %s";
+
+/* selector = <= */
+"%s <= %s" = "%s <= %s";
+
+/* selector = = */
+"%s = %s" = "%s = %s";
+
+/* selector = > */
+"%s > %s" = "%s > %s";
+
+/* selector = >= */
+"%s >= %s" = "%s >= %s";
+
+/* selector = & */
+"%b and %b" = "%b and %b";
+
+/* selector = ? */
+"if %b then %s else %s" = "if %b then %s else %s";
+
+/* selector = | */
+"%b or %b" = "%b or %b";
+
+/* selector = not */
+"not %b" = "not %b";
+
+/* selector = rounded */
+"round %d" = "round %d";
+
+/* selector = randomFrom:to: */
+"pick random from %d to %d" = "pick random from %d to %d";
+
+/* selector = computeFunction:of: */
+"%ms.mathOperators of %d" = "%ms.mathOperators of %d";
+
+/* selector = concatenate:with: */
+"join %s %s" = "join %s %s";
+
+/* selector = letter:of: */
+"letter %d of %s" = "letter %d of %s";
+
+/* selector = transformString:of: */
+"%ms.strOperators of %s" = "%ms.strOperators of %s";
+
+/* selector = stringLength: */
+"length of %s" = "length of %s";
+
+/* selector = procDef */
+"define" = "define";
+
