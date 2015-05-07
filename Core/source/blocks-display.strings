@@ -134,7 +134,7 @@
 "visible" = "visible";
 
 /* selector = setColor: */
-"@_deviceObjectType_ change color to %c.color" = "@_deviceObjectType_ change color to %c.color";
+"@_deviceObjectType_ change color to %cs.color" = "@_deviceObjectType_ change color to %cs.color";
 
 /* selector = setObjectNamed:toColor: */
 "@_deviceObjectType_ change color of %m.hubDeviceObjects to %c.color" = "@_deviceObjectType_ change color of %m.hubDeviceObjects to %c.color";
@@ -162,6 +162,33 @@
 
 /* selector = volume */
 "volume" = "volume";
+
+/* selector = setArduinoPin:toMode: */
+"@_deviceObjectType_ set pin %d.arduinoPins to mode %m.arduinoPinMode" = "@_deviceObjectType_ set pin %d.arduinoPins to mode %m.arduinoPinMode";
+
+/* selector = readArduinoDigitalPin: */
+"@_deviceObjectType_ read digital pin %d.arduinoPins" = "@_deviceObjectType_ read digital pin %d.arduinoPins";
+
+/* selector = writeValue:toArduinoDigitalPin: */
+"@_deviceObjectType_ write %d.digitalPinValues to digital pin %d.arduinoPins" = "@_deviceObjectType_ write %d.digitalPinValues to digital pin %d.arduinoPins";
+
+/* selector = readArduinoAnalogPin: */
+"@_deviceObjectType_ read analog pin %d.arduinoAnalogPins" = "@_deviceObjectType_ read analog pin %d.arduinoAnalogPins";
+
+/* selector = writeValue:toArduinoAnalogPin: */
+"@_deviceObjectType_ write %d to analog pin %d.arduinoAnalogPins" = "@_deviceObjectType_ write %d to analog pin %d.arduinoAnalogPins";
+
+/* selector = accelerometer:of: */
+"accelerometer %ms.xyzAxis of %ms.accelerometerDevices" = "accelerometer %ms.xyzAxis of %ms.accelerometerDevices";
+
+/* selector = attitude:of: */
+"attitude %ms.gyroDirections of %ms.attitudeDevices" = "attitude %ms.gyroDirections of %ms.attitudeDevices";
+
+/* selector = gyroscope:of: */
+"gyroscope %ms.xyzAxis of %ms.gyroDevices" = "gyroscope %ms.xyzAxis of %ms.gyroDevices";
+
+/* selector = temperatureOf: */
+"get temperature from %ms.thermometerDevices" = "get temperature from %ms.thermometerDevices";
 
 /* selector = readVariable: */
 "_variable_name_" = "_variable_name_";
@@ -294,15 +321,6 @@
 
 /* selector = timestamp */
 "days since 2000" = "days since 2000";
-
-/* selector = accelerometer:of: */
-"accelerometer %ms.xyzAxis of %ms.accelerometerDevices" = "accelerometer %ms.xyzAxis of %ms.accelerometerDevices";
-
-/* selector = attitude:of: */
-"attitude %ms.gyroDirections of %ms.attitudeDevices" = "attitude %ms.gyroDirections of %ms.attitudeDevices";
-
-/* selector = gyroscope:of: */
-"gyroscope %ms.xyzAxis of %ms.gyroDevices" = "gyroscope %ms.xyzAxis of %ms.gyroDevices";
 
 /* selector = + */
 "%d + %d" = "%d + %d";
