@@ -1,63 +1,3 @@
-/* %m.characterOrStage => default */
-"%m.characterOrStage-default" = "Stage";
-
-/* %m.characterOrStage => list: Stage */
-"%m.characterOrStage-Stage" = "Stage";
-
-/* %m.whDirection => default */
-"%m.whDirection-default" = "width";
-
-/* %m.whDirection => list: width */
-"%m.whDirection-width" = "width";
-
-/* %m.whDirection => list: height */
-"%m.whDirection-height" = "height";
-
-/* %m.objectOrStage => default */
-"%m.objectOrStage-default" = "Stage";
-
-/* %m.objectOrStage => list: Stage */
-"%m.objectOrStage-Stage" = "Stage";
-
-/* %m.rlDirection => default */
-"%m.rlDirection-default" = "right";
-
-/* %m.rlDirection => list: right */
-"%m.rlDirection-right" = "right";
-
-/* %m.rlDirection => list: left */
-"%m.rlDirection-left" = "left";
-
-/* %m.xyzAxis => default */
-"%m.xyzAxis-default" = "x axis";
-
-/* %m.xyzAxis => list: x axis */
-"%m.xyzAxis-x axis" = "x axis";
-
-/* %m.xyzAxis => list: y axis */
-"%m.xyzAxis-y axis" = "y axis";
-
-/* %m.xyzAxis => list: z axis */
-"%m.xyzAxis-z axis" = "z axis";
-
-/* %m.nodeTouchEvent => default */
-"%m.nodeTouchEvent-default" = "clicked";
-
-/* %m.nodeTouchEvent => list: clicked */
-"%m.nodeTouchEvent-clicked" = "clicked";
-
-/* %m.nodeTouchEvent => list: long pressed */
-"%m.nodeTouchEvent-long pressed" = "long pressed";
-
-/* %d.listItem => list: first */
-"%d.listItem-first" = "first";
-
-/* %d.listItem => list: last */
-"%d.listItem-last" = "last";
-
-/* %d.listItem => list: random */
-"%d.listItem-random" = "random";
-
 /* %m.whDirection2 => default */
 "%m.whDirection2-default" = "both directions";
 
@@ -69,114 +9,6 @@
 
 /* %m.whDirection2 => list: both directions */
 "%m.whDirection2-both directions" = "both directions";
-
-/* %s.broadcast => default */
-"%s.broadcast-default" = "Event 1";
-
-/* %d.digitalPinValues => default */
-"%d.digitalPinValues-default" = "High";
-
-/* %d.digitalPinValues => list: High */
-"%d.digitalPinValues-High" = "High";
-
-/* %d.digitalPinValues => list: Low */
-"%d.digitalPinValues-Low" = "Low";
-
-/* %m.hvDirection => default */
-"%m.hvDirection-default" = "horizontal";
-
-/* %m.hvDirection => list: horizontal */
-"%m.hvDirection-horizontal" = "horizontal";
-
-/* %m.hvDirection => list: vertical */
-"%m.hvDirection-vertical" = "vertical";
-
-/* %m.triggerSensor => default */
-"%m.triggerSensor-default" = "loudness";
-
-/* %m.triggerSensor => list: loudness */
-"%m.triggerSensor-loudness" = "loudness";
-
-/* %m.triggerSensor => list: timer */
-"%m.triggerSensor-timer" = "timer";
-
-/* %m.triggerSensor => list: video motion */
-"%m.triggerSensor-video motion" = "video motion";
-
-/* %m.xyAxis => default */
-"%m.xyAxis-default" = "x";
-
-/* %m.xyAxis => list: x */
-"%m.xyAxis-x" = "x";
-
-/* %m.xyAxis => list: y */
-"%m.xyAxis-y" = "y";
-
-/* %m.strOperators => default */
-"%m.strOperators-default" = "uppercase";
-
-/* %m.strOperators => list: uppercase */
-"%m.strOperators-uppercase" = "uppercase";
-
-/* %m.strOperators => list: lowercase */
-"%m.strOperators-lowercase" = "lowercase";
-
-/* %m.stop => default */
-"%m.stop-default" = "all";
-
-/* %m.stop => list: all */
-"%m.stop-all" = "all";
-
-/* %m.stop => list: this script */
-"%m.stop-this script" = "this script";
-
-/* %m.stop => list: other scripts of myself */
-"%m.stop-other scripts of myself" = "other scripts of myself";
-
-/* %m.effect => default */
-"%m.effect-default" = "brightness";
-
-/* %m.effect => list: ghost */
-"%m.effect-ghost" = "ghost";
-
-/* %m.effect => list: color */
-"%m.effect-color" = "color";
-
-/* %m.effect => list: fisheye */
-"%m.effect-fisheye" = "fisheye";
-
-/* %m.effect => list: whirl */
-"%m.effect-whirl" = "whirl";
-
-/* %m.effect => list: pixelate */
-"%m.effect-pixelate" = "pixelate";
-
-/* %m.effect => list: mosaic */
-"%m.effect-mosaic" = "mosaic";
-
-/* %m.effect => list: brightness */
-"%m.effect-brightness" = "brightness";
-
-/* %m.effect => list: gaussian blur */
-"%m.effect-gaussian blur" = "gaussian blur";
-
-/* %m.arduinoPinMode => default */
-"%m.arduinoPinMode-default" = "Input";
-
-/* %m.udDirection => default */
-"%m.udDirection-default" = "up";
-
-/* %m.udDirection => list: up */
-"%m.udDirection-up" = "up";
-
-/* %m.udDirection => list: down */
-"%m.udDirection-down" = "down";
-
-/* %m.characterOrTouchPoint => default */
-"%m.characterOrTouchPoint-default" = "last touch point";
-
-/* %m.characterOrTouchPoint => list: last touch point */
-"%m.characterOrTouchPoint-last touch point" = "last touch point";
 
 /* %m.xyAxis2 => default */
 "%m.xyAxis2-default" = "both";
@@ -190,56 +22,80 @@
 /* %m.xyAxis2 => list: y */
 "%m.xyAxis2-y" = "y";
 
-/* %c.color => default */
-"%c.color-default" = "random";
+/* %m.gyroDirections => default */
+"%m.gyroDirections-default" = "pitch";
 
-/* %c.color => list: random */
-"%c.color-random" = "random";
+/* %m.gyroDirections => list: pitch */
+"%m.gyroDirections-pitch" = "pitch";
 
-/* %c.color => list: white */
-"%c.color-white" = "white";
+/* %m.gyroDirections => list: roll */
+"%m.gyroDirections-roll" = "roll";
 
-/* %c.color => list: red */
-"%c.color-red" = "red";
+/* %m.gyroDirections => list: yaw */
+"%m.gyroDirections-yaw" = "yaw";
 
-/* %c.color => list: green */
-"%c.color-green" = "green";
+/* %m.characterOrStage => default */
+"%m.characterOrStage-default" = "Stage";
 
-/* %c.color => list: blue */
-"%c.color-blue" = "blue";
+/* %m.characterOrStage => list: Stage */
+"%m.characterOrStage-Stage" = "Stage";
 
-/* %c.color => list: yellow */
-"%c.color-yellow" = "yellow";
+/* %m.triggerSensor => default */
+"%m.triggerSensor-default" = "loudness";
 
-/* %c.color => list: orange */
-"%c.color-orange" = "orange";
+/* %m.triggerSensor => list: loudness */
+"%m.triggerSensor-loudness" = "loudness";
 
-/* %c.color => list: purple */
-"%c.color-purple" = "purple";
+/* %m.triggerSensor => list: timer */
+"%m.triggerSensor-timer" = "timer";
 
-/* %d.listDeleteItem => list: first */
-"%d.listDeleteItem-first" = "first";
+/* %m.triggerSensor => list: video motion */
+"%m.triggerSensor-video motion" = "video motion";
 
-/* %d.listDeleteItem => list: last */
-"%d.listDeleteItem-last" = "last";
+/* %m.timeAndDate => default */
+"%m.timeAndDate-default" = "minute";
 
-/* %d.listDeleteItem => list: all */
-"%d.listDeleteItem-all" = "all";
+/* %m.timeAndDate => list: year */
+"%m.timeAndDate-year" = "year";
 
-/* %m.4wayDirections => default */
-"%m.4wayDirections-default" = "forward";
+/* %m.timeAndDate => list: month */
+"%m.timeAndDate-month" = "month";
 
-/* %m.4wayDirections => list: forward */
-"%m.4wayDirections-forward" = "forward";
+/* %m.timeAndDate => list: date */
+"%m.timeAndDate-date" = "date";
 
-/* %m.4wayDirections => list: left */
-"%m.4wayDirections-left" = "left";
+/* %m.timeAndDate => list: day of week */
+"%m.timeAndDate-day of week" = "day of week";
 
-/* %m.4wayDirections => list: right */
-"%m.4wayDirections-right" = "right";
+/* %m.timeAndDate => list: hour */
+"%m.timeAndDate-hour" = "hour";
 
-/* %m.4wayDirections => list: backward */
-"%m.4wayDirections-backward" = "backward";
+/* %m.timeAndDate => list: minute */
+"%m.timeAndDate-minute" = "minute";
+
+/* %m.timeAndDate => list: second */
+"%m.timeAndDate-second" = "second";
+
+/* %m.strOperators => default */
+"%m.strOperators-default" = "uppercase";
+
+/* %m.strOperators => list: uppercase */
+"%m.strOperators-uppercase" = "uppercase";
+
+/* %m.strOperators => list: lowercase */
+"%m.strOperators-lowercase" = "lowercase";
+
+/* %m.xyzAxis => default */
+"%m.xyzAxis-default" = "x axis";
+
+/* %m.xyzAxis => list: x axis */
+"%m.xyzAxis-x axis" = "x axis";
+
+/* %m.xyzAxis => list: y axis */
+"%m.xyzAxis-y axis" = "y axis";
+
+/* %m.xyzAxis => list: z axis */
+"%m.xyzAxis-z axis" = "z axis";
 
 /* %m.mathOperators => default */
 "%m.mathOperators-default" = "sqrt";
@@ -289,11 +145,80 @@
 /* %m.mathOperators => list: 10 ^ */
 "%m.mathOperators-10 ^" = "10 ^";
 
-/* %m.character => default */
-"%m.character-default" = "myself";
+/* %d.listDeleteItem => list: first */
+"%d.listDeleteItem-first" = "first";
 
-/* %m.character => list: myself */
-"%m.character-myself" = "myself";
+/* %d.listDeleteItem => list: last */
+"%d.listDeleteItem-last" = "last";
+
+/* %d.listDeleteItem => list: all */
+"%d.listDeleteItem-all" = "all";
+
+/* %s.broadcast => default */
+"%s.broadcast-default" = "Event 1";
+
+/* %m.xyAxis => default */
+"%m.xyAxis-default" = "x";
+
+/* %m.xyAxis => list: x */
+"%m.xyAxis-x" = "x";
+
+/* %m.xyAxis => list: y */
+"%m.xyAxis-y" = "y";
+
+/* %m.whDirection => default */
+"%m.whDirection-default" = "width";
+
+/* %m.whDirection => list: width */
+"%m.whDirection-width" = "width";
+
+/* %m.whDirection => list: height */
+"%m.whDirection-height" = "height";
+
+/* %m.4wayDirections => default */
+"%m.4wayDirections-default" = "forward";
+
+/* %m.4wayDirections => list: forward */
+"%m.4wayDirections-forward" = "forward";
+
+/* %m.4wayDirections => list: left */
+"%m.4wayDirections-left" = "left";
+
+/* %m.4wayDirections => list: right */
+"%m.4wayDirections-right" = "right";
+
+/* %m.4wayDirections => list: backward */
+"%m.4wayDirections-backward" = "backward";
+
+/* %m.powerSwitch => default */
+"%m.powerSwitch-default" = "on";
+
+/* %m.powerSwitch => list: on */
+"%m.powerSwitch-on" = "on";
+
+/* %m.powerSwitch => list: off */
+"%m.powerSwitch-off" = "off";
+
+/* %m.attribute => default */
+"%m.attribute-default" = "name";
+
+/* %m.udDirection => default */
+"%m.udDirection-default" = "up";
+
+/* %m.udDirection => list: up */
+"%m.udDirection-up" = "up";
+
+/* %m.udDirection => list: down */
+"%m.udDirection-down" = "down";
+
+/* %m.nodeTouchEvent => default */
+"%m.nodeTouchEvent-default" = "clicked";
+
+/* %m.nodeTouchEvent => list: clicked */
+"%m.nodeTouchEvent-clicked" = "clicked";
+
+/* %m.nodeTouchEvent => list: long pressed */
+"%m.nodeTouchEvent-long pressed" = "long pressed";
 
 /* %m.touching => default */
 "%m.touching-default" = "last touch point";
@@ -304,51 +229,126 @@
 /* %m.touching => list: edge */
 "%m.touching-edge" = "edge";
 
-/* %m.gyroDirections => default */
-"%m.gyroDirections-default" = "pitch";
+/* %m.rlDirection => default */
+"%m.rlDirection-default" = "right";
 
-/* %m.gyroDirections => list: pitch */
-"%m.gyroDirections-pitch" = "pitch";
+/* %m.rlDirection => list: right */
+"%m.rlDirection-right" = "right";
 
-/* %m.gyroDirections => list: roll */
-"%m.gyroDirections-roll" = "roll";
+/* %m.rlDirection => list: left */
+"%m.rlDirection-left" = "left";
 
-/* %m.gyroDirections => list: yaw */
-"%m.gyroDirections-yaw" = "yaw";
+/* %c.color => default */
+"%c.color-default" = "random";
 
-/* %m.attribute => default */
-"%m.attribute-default" = "name";
+/* %c.color => list: random */
+"%c.color-random" = "random";
 
-/* %m.timeAndDate => default */
-"%m.timeAndDate-default" = "minute";
+/* %c.color => list: white */
+"%c.color-white" = "white";
 
-/* %m.timeAndDate => list: year */
-"%m.timeAndDate-year" = "year";
+/* %c.color => list: red */
+"%c.color-red" = "red";
 
-/* %m.timeAndDate => list: month */
-"%m.timeAndDate-month" = "month";
+/* %c.color => list: green */
+"%c.color-green" = "green";
 
-/* %m.timeAndDate => list: date */
-"%m.timeAndDate-date" = "date";
+/* %c.color => list: blue */
+"%c.color-blue" = "blue";
 
-/* %m.timeAndDate => list: day of week */
-"%m.timeAndDate-day of week" = "day of week";
+/* %c.color => list: yellow */
+"%c.color-yellow" = "yellow";
 
-/* %m.timeAndDate => list: hour */
-"%m.timeAndDate-hour" = "hour";
+/* %c.color => list: orange */
+"%c.color-orange" = "orange";
 
-/* %m.timeAndDate => list: minute */
-"%m.timeAndDate-minute" = "minute";
+/* %c.color => list: purple */
+"%c.color-purple" = "purple";
 
-/* %m.timeAndDate => list: second */
-"%m.timeAndDate-second" = "second";
+/* %m.hvDirection => default */
+"%m.hvDirection-default" = "horizontal";
 
-/* %m.powerSwitch => default */
-"%m.powerSwitch-default" = "on";
+/* %m.hvDirection => list: horizontal */
+"%m.hvDirection-horizontal" = "horizontal";
 
-/* %m.powerSwitch => list: on */
-"%m.powerSwitch-on" = "on";
+/* %m.hvDirection => list: vertical */
+"%m.hvDirection-vertical" = "vertical";
 
-/* %m.powerSwitch => list: off */
-"%m.powerSwitch-off" = "off";
+/* %d.digitalPinValues => default */
+"%d.digitalPinValues-default" = "High";
+
+/* %d.digitalPinValues => list: High */
+"%d.digitalPinValues-High" = "High";
+
+/* %d.digitalPinValues => list: Low */
+"%d.digitalPinValues-Low" = "Low";
+
+/* %d.listItem => list: first */
+"%d.listItem-first" = "first";
+
+/* %d.listItem => list: last */
+"%d.listItem-last" = "last";
+
+/* %d.listItem => list: random */
+"%d.listItem-random" = "random";
+
+/* %m.characterOrTouchPoint => default */
+"%m.characterOrTouchPoint-default" = "last touch point";
+
+/* %m.characterOrTouchPoint => list: last touch point */
+"%m.characterOrTouchPoint-last touch point" = "last touch point";
+
+/* %m.objectOrStage => default */
+"%m.objectOrStage-default" = "Stage";
+
+/* %m.objectOrStage => list: Stage */
+"%m.objectOrStage-Stage" = "Stage";
+
+/* %m.stop => default */
+"%m.stop-default" = "all";
+
+/* %m.stop => list: all */
+"%m.stop-all" = "all";
+
+/* %m.stop => list: this script */
+"%m.stop-this script" = "this script";
+
+/* %m.stop => list: other scripts of myself */
+"%m.stop-other scripts of myself" = "other scripts of myself";
+
+/* %m.character => default */
+"%m.character-default" = "myself";
+
+/* %m.character => list: myself */
+"%m.character-myself" = "myself";
+
+/* %m.arduinoPinMode => default */
+"%m.arduinoPinMode-default" = "Input";
+
+/* %m.effect => default */
+"%m.effect-default" = "brightness";
+
+/* %m.effect => list: ghost */
+"%m.effect-ghost" = "ghost";
+
+/* %m.effect => list: color */
+"%m.effect-color" = "color";
+
+/* %m.effect => list: fisheye */
+"%m.effect-fisheye" = "fisheye";
+
+/* %m.effect => list: whirl */
+"%m.effect-whirl" = "whirl";
+
+/* %m.effect => list: pixelate */
+"%m.effect-pixelate" = "pixelate";
+
+/* %m.effect => list: mosaic */
+"%m.effect-mosaic" = "mosaic";
+
+/* %m.effect => list: brightness */
+"%m.effect-brightness" = "brightness";
+
+/* %m.effect => list: gaussian blur */
+"%m.effect-gaussian blur" = "gaussian blur";
 
