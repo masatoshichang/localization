@@ -5,13 +5,13 @@
 "move %d steps at %d.direction degrees" = "向 %d(1).direction 度移動 %d(0) 步";
 
 /* selector = moveForSec:atSpeed: */
-"@_deviceObjectType_ move for %d secs at %d % speed" = "@_deviceObjectType_ 以 %d(1) %的速度移動 %d(0) 秒";
+"@_deviceObjectType_ move for %d secs at %d % speed" = "@_deviceObjectType_ 以 %d(1) % 的速度移動 %d(0) 秒";
 
 /* selector = moveByDirection:forSec: */
 "@_deviceObjectType_ move %ms.4wayDirections for %d secs" = "@_deviceObjectType_ 向 %ms.4wayDirections 移動 %d 秒";
 
 /* selector = startMoveAtSpeed: */
-"@_deviceObjectType_ start moving at %d % speed" = "@_deviceObjectType_ 開始以 %d %的速度開始移動";
+"@_deviceObjectType_ start moving at %d % speed" = "@_deviceObjectType_ 開始以 %d % 的速度開始移動";
 
 /* selector = speed: */
 "@_deviceObjectType_ set speed to %d %" = "@_deviceObjectType_ 將速度設為 %d %";
@@ -158,7 +158,7 @@
 "change volume by %d" = "將音量改變 %d";
 
 /* selector = setVolumeTo: */
-"set volume to %d%" = "將音量設為 %d%";
+"set volume to %d%" = "將音量設為 %d %";
 
 /* selector = volume */
 "volume" = "音量";
