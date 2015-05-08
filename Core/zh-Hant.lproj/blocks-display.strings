@@ -293,7 +293,7 @@
 "current %ms.timeAndDate" = "現在的 %ms.timeAndDate 數";
 
 /* selector = timestamp */
-"days since 2000" = "從 2000 年開始 的第幾天";
+"days since 2000" = "從 2000 年開始的天數";
 
 /* selector = accelerometer:of: */
 "accelerometer %ms.xyzAxis of %ms.accelerometerDevices" = "%ms(1).accelerometerDevices 的 %ms(0).xyzAxis 的加速度";
