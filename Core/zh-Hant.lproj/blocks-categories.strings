@@ -1,30 +1,30 @@
 /* Motion */
-"Motion" = "Motion";
+"Motion" = "動作";
 
 /* Looks */
-"Looks" = "Looks";
+"Looks" = "外觀";
 
 /* Sound */
-"Sound" = "Sound";
+"Sound" = "聲音";
 
 /* Data */
-"Data" = "Data";
+"Data" = "資料";
 
 /* List */
-"List" = "List";
+"List" = "陣列";
 
 /* Events */
-"Events" = "Events";
+"Events" = "事件";
 
 /* Control */
 "Control" = "控制";
 
 /* Sensing */
-"Sensing" = "Sensing";
+"Sensing" = "感知";
 
 /* Operators */
-"Operators" = "Operators";
+"Operators" = "運算";
 
 /* More Blocks */
-"More Blocks" = "More Blocks";
+"More Blocks" = "功能";
 
