@@ -296,13 +296,13 @@
 "days since 2000" = "從 2000 年開始 的第幾天";
 
 /* selector = accelerometer:of: */
-"accelerometer %ms.xyzAxis of %ms.accelerometerDevices" = "%ms(1).accelerometerDevices 的 %ms(0).xyzAxis 軸的加速度";
+"accelerometer %ms.xyzAxis of %ms.accelerometerDevices" = "%ms(1).accelerometerDevices 的 %ms(0).xyzAxis 的加速度";
 
 /* selector = attitude:of: */
 "attitude %ms.gyroDirections of %ms.attitudeDevices" = "%ms(1).attitudeDevices 的 %ms(0).gyroDirections 的值";
 
 /* selector = gyroscope:of: */
-"gyroscope %ms.xyzAxis of %ms.gyroDevices" = "%ms(1).gyroDevices 的 %ms(0).xyzAxis 軸的旋轉角度";
+"gyroscope %ms.xyzAxis of %ms.gyroDevices" = "%ms(1).gyroDevices 的 %ms(0).xyzAxis 的角度";
 
 /* selector = + */
 "%d + %d" = "%d + %d";
