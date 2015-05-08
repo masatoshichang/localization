@@ -2,307 +2,307 @@
 "move %d steps" = "移動 %d 步";
 
 /* selector = forward:atHeading: */
-"move %d steps at %d.direction degrees" = "move %d steps at %d.direction degrees";
+"move %d steps at %d.direction degrees" = "向 %d(1).direction 度移動 %d(0) 步";
 
 /* selector = moveForSec:atSpeed: */
-"@_deviceObjectType_ move for %d secs at %d % speed" = "@_deviceObjectType_ move for %d secs at %d % speed";
+"@_deviceObjectType_ move for %d secs at %d % speed" = "@_deviceObjectType_ 以 %d(1) %的速度移動 %d(0) 秒";
 
 /* selector = moveByDirection:forSec: */
-"@_deviceObjectType_ move %ms.4wayDirections for %d secs" = "@_deviceObjectType_ move %ms.4wayDirections for %d secs";
+"@_deviceObjectType_ move %ms.4wayDirections for %d secs" = "@_deviceObjectType_ 向 %ms.4wayDirections 移動 %d 秒";
 
 /* selector = startMoveAtSpeed: */
-"@_deviceObjectType_ start moving at %d % speed" = "@_deviceObjectType_ start moving at %d % speed";
+"@_deviceObjectType_ start moving at %d % speed" = "@_deviceObjectType_ 開始以 %d %的速度開始移動";
 
 /* selector = speed: */
-"@_deviceObjectType_ set speed to %d %" = "@_deviceObjectType_ set speed to %d %";
+"@_deviceObjectType_ set speed to %d %" = "@_deviceObjectType_ 將速度設為 %d %";
 
 /* selector = takeOff */
-"@_deviceObjectType_ take off" = "@_deviceObjectType_ take off";
+"@_deviceObjectType_ take off" = "@_deviceObjectType_ 起飛";
 
 /* selector = stopMove */
-"@_deviceObjectType_ stop moving" = "@_deviceObjectType_ stop moving";
+"@_deviceObjectType_ stop moving" = "@_deviceObjectType_ 停止移動";
 
 /* selector = land */
-"@_deviceObjectType_ land" = "@_deviceObjectType_ land";
+"@_deviceObjectType_ land" = "@_deviceObjectType_ 降落";
 
 /* selector = maximumHeight: */
-"@_deviceObjectType_ set maximum height to %d m" = "@_deviceObjectType_ set maximum height to %d m";
+"@_deviceObjectType_ set maximum height to %d m" = "@_deviceObjectType_ 將高度限制設為 %d 公尺";
 
 /* selector = moveUpDown:forSec: */
-"@_deviceObjectType_ move %ms.udDirection for %d secs" = "@_deviceObjectType_ move %ms.udDirection for %d secs";
+"@_deviceObjectType_ move %ms.udDirection for %d secs" = "@_deviceObjectType_ 向 %ms.udDirection 移動 %d 秒";
 
 /* selector = turn:byDegree: */
-"@_deviceObjectType_ turn %ms.rlDirection by %d degrees" = "@_deviceObjectType_ turn %ms.rlDirection by %d degrees";
+"@_deviceObjectType_ turn %ms.rlDirection by %d degrees" = "@_deviceObjectType_ 向 %ms.rlDirection 轉 %d 度";
 
 /* selector = heading: */
-"@_deviceObjectType_ set heading to %d degrees" = "@_deviceObjectType_ set heading to %d degrees";
+"@_deviceObjectType_ set heading to %d degrees" = "@_deviceObjectType_ 朝向 %d 度";
 
 /* selector = direction: */
-"set direction to %d.direction degrees" = "set direction to %d.direction degrees";
+"set direction to %d.direction degrees" = "轉向 %d 度";
 
 /* selector = spinTimes:forSec: */
-"@_deviceObjectType_ spin %d times for %d seconds" = "@_deviceObjectType_ spin %d times for %d seconds";
+"@_deviceObjectType_ spin %d times for %d seconds" = "@_deviceObjectType_ 在 %d(1) 秒內旋轉 %d(0) 次";
 
 /* selector = pointTowards: */
-"point towards %m.characterOrTouchPoint" = "point towards %m.characterOrTouchPoint";
+"point towards %m.characterOrTouchPoint" = "朝向 %m.characterOrTouchPoint";
 
 /* selector = gotoX:y: */
-"go to x:%d y:%d" = "go to x:%d y:%d";
+"go to x:%d y:%d" = "移動到 x:%d y:%d";
 
 /* selector = gotoCharacterOrTouchPoint: */
-"go to %m.characterOrTouchPoint" = "go to %m.characterOrTouchPoint";
+"go to %m.characterOrTouchPoint" = "移動到 %m.characterOrTouchPoint 的位置";
 
 /* selector = glideSecs:toX:y: */
-"glide %d secs to x:%d y:%d" = "glide %d secs to x:%d y:%d";
+"glide %d secs to x:%d y:%d" = "在 %d 秒中移動到 x:%d y:%d";
 
 /* selector = changePositionOf:by: */
-"change %ms.xyAxis by %d" = "change %ms.xyAxis by %d";
+"change %ms.xyAxis by %d" = "將 %ms.xyAxis 座標加 %d";
 
 /* selector = setPositionOf:to: */
-"set %ms.xyAxis to %d" = "set %ms.xyAxis to %d";
+"set %ms.xyAxis to %d" = "將 %ms.xyAxis 座標設為 %d";
 
 /* selector = bounceOffEdge */
-"if on edge, bounce" = "if on edge, bounce";
+"if on edge, bounce" = "碰到邊緣時反彈";
 
 /* selector = startJumping */
-"@_deviceObjectType_ start to jump" = "@_deviceObjectType_ start to jump";
+"@_deviceObjectType_ start to jump" = "@_deviceObjectType_ 開始彈跳";
 
 /* selector = flipDevice: */
-"@_deviceObjectType_ flip" = "@_deviceObjectType_ flip";
+"@_deviceObjectType_ flip" = "@_deviceObjectType_ 翻轉";
 
 /* selector = takePhoto */
-"@_deviceObjectType_ take a photo" = "@_deviceObjectType_ take a photo";
+"@_deviceObjectType_ take a photo" = "@_deviceObjectType_ 拍照";
 
 /* selector = position: */
-"%ms.xyAxis of position" = "%ms.xyAxis of position";
+"%ms.xyAxis of position" = "%ms.xyAxis 軸座標";
 
 /* selector = direction */
-"direction" = "direction";
+"direction" = "方向";
 
 /* selector = heading */
-"@_deviceObjectType_ heading" = "@_deviceObjectType_ heading";
+"@_deviceObjectType_ heading" = "@_deviceObjectType_ 方向";
 
 /* selector = speed */
-"@_deviceObjectType_ speed" = "@_deviceObjectType_ speed";
+"@_deviceObjectType_ speed" = "@_deviceObjectType_ 速度";
 
 /* selector = say: */
 "say %s" = "說 %s";
 
 /* selector = think: */
-"think %s" = "think %s";
+"think %s" = "想 %s";
 
 /* selector = show */
-"show" = "show";
+"show" = "顯示";
 
 /* selector = hide */
-"hide" = "hide";
+"hide" = "隱藏";
 
 /* selector = setLooks: */
-"set looks to %m.looks" = "set looks to %m.looks";
+"set looks to %m.looks" = "將外觀換成 %m.looks";
 
 /* selector = startPlayLooks: */
-"start to play animation %m.looks" = "start to play animation %m.looks";
+"start to play animation %m.looks" = "開始將外觀換成 %m.looks";
 
 /* selector = changeGraphicEffect:by: */
-"change %ms.effect effect by %d" = "change %ms.effect effect by %d";
+"change %ms.effect effect by %d" = "將 %ms.effect 效果增加 %d";
 
 /* selector = setGraphicEffect:to: */
-"set %ms.effect effect to %d" = "set %ms.effect effect to %d";
+"set %ms.effect effect to %d" = "將 %ms.effect 效果設為 %d";
 
 /* selector = clearGraphicEffects */
-"clear graphic effects" = "clear graphic effects";
+"clear graphic effects" = "移除所有效果";
 
 /* selector = changeScaleBy: */
-"change scale by %d %" = "change scale by %d %";
+"change scale by %d %" = "將縮放比例改變 %d %";
 
 /* selector = setScaleOf:to: */
-"set scale of %ms.whDirection2 to %d %" = "set scale of %ms.whDirection2 to %d %";
+"set scale of %ms.whDirection2 to %d %" = "將 %ms.whDirection2 軸縮放設為 %d %";
 
 /* selector = flip: */
-"flip %ms.hvDirection" = "flip %ms.hvDirection";
+"flip %ms.hvDirection" = "%ms.hvDirection 翻轉";
 
 /* selector = comeToFront */
-"go to front" = "go to front";
+"go to front" = "移至最前面";
 
 /* selector = goBackByLayers: */
-"go back %d layers" = "go back %d layers";
+"go back %d layers" = "往後移 %d 層";
 
 /* selector = scale: */
-"scale of %ms.whDirection2" = "scale of %ms.whDirection2";
+"scale of %ms.whDirection2" = "%ms.whDirection2 軸的縮放值";
 
 /* selector = visible */
-"visible" = "visible";
+"visible" = "是否可見";
 
 /* selector = setColor: */
-"@_deviceObjectType_ change color to %c.color" = "@_deviceObjectType_ change color to %c.color";
+"@_deviceObjectType_ change color to %c.color" = "@_deviceObjectType_ 將顏色設為 %c.color";
 
 /* selector = setObjectNamed:toColor: */
-"@_deviceObjectType_ change color of %m.hubDeviceObjects to %c.color" = "@_deviceObjectType_ change color of %m.hubDeviceObjects to %c.color";
+"@_deviceObjectType_ change color of %m.hubDeviceObjects to %c.color" = "@_deviceObjectType_ 將 %m.hubDeviceObjects 顏色設為 %c.color";
 
 /* selector = color */
-"@_deviceObjectType_ color" = "@_deviceObjectType_ color";
+"@_deviceObjectType_ color" = "@_deviceObjectType_ 顏色";
 
 /* selector = powerSwitch:name: */
-"@_deviceObjectType_ turn %m.powerSwitch %m.hubDeviceObjects" = "@_deviceObjectType_ turn %m.powerSwitch %m.hubDeviceObjects";
+"@_deviceObjectType_ turn %m.powerSwitch %m.hubDeviceObjects" = "@_deviceObjectType_ 將 %m(1).hubDeviceObjects %m(0).powerSwitch";
 
 /* selector = playSound: */
-"play sound %m.sound" = "play sound %m.sound";
+"play sound %m.sound" = "播放聲音 %m.sound";
 
 /* selector = playSoundAndWait: */
-"play sound %m.sound until done" = "play sound %m.sound until done";
+"play sound %m.sound until done" = "播放聲音 %m.sound 至結束";
 
 /* selector = stopAllSounds */
-"stop all sounds" = "stop all sounds";
+"stop all sounds" = "停止所有聲音";
 
 /* selector = changeVolumeBy: */
-"change volume by %d" = "change volume by %d";
+"change volume by %d" = "將音量改變 %d";
 
 /* selector = setVolumeTo: */
-"set volume to %d%" = "set volume to %d%";
+"set volume to %d%" = "將音量設為 %d%";
 
 /* selector = volume */
-"volume" = "volume";
+"volume" = "音量";
 
 /* selector = readVariable: */
 "_variable_name_" = "_variable_name_";
 
 /* selector = setVar:to: */
-"set %ms.variable to %s" = "set %ms.variable to %s";
+"set %ms.variable to %s" = "將 %ms.variable 的值設為 %s";
 
 /* selector = changeVar:by: */
-"change %ms.variable by %d" = "change %ms.variable by %d";
+"change %ms.variable by %d" = "將 %ms.variable 的值加上 %d";
 
 /* selector = contentsOfList: */
 "_list_name_" = "_list_name_";
 
 /* selector = append:toList: */
-"add %s to %ms.list" = "add %s to %ms.list";
+"add %s to %ms.list" = "將 %s 加入 %ms.list";
 
 /* selector = deleteLine:ofList: */
-"delete %ds.listDeleteItem of %ms.list" = "delete %ds.listDeleteItem of %ms.list";
+"delete %ds.listDeleteItem of %ms.list" = "移除 %ms(1).list 中的第 %ds(0).listDeleteItem 項";
 
 /* selector = insert:at:ofList: */
-"insert %s at %ds.listItem of %ms.list" = "insert %s at %ds.listItem of %ms.list";
+"insert %s at %ds.listItem of %ms.list" = "將 %s(0) 插入 %ms(2).list 的第 %ds(1).listItem 的位置";
 
 /* selector = setLine:ofList:to: */
-"replace item %ds.listItem of %ms.list with %s" = "replace item %ds.listItem of %ms.list with %s";
+"replace item %ds.listItem of %ms.list with %s" = "以 %s(2) 取代 %ds(0).listItem 中的第 %ms(1).list 個項目";
 
 /* selector = getLine:ofList: */
-"item %ds.listItem of %ms.list" = "item %ds.listItem of %ms.list";
+"item %ds.listItem of %ms.list" = "%ms(1).list 中的第 %ds(0).listItem 項";
 
 /* selector = countOfList: */
-"length of %ms.list" = "length of %ms.list";
+"length of %ms.list" = "%ms.list 的長度";
 
 /* selector = list:contains: */
-"%ms.list contains %s" = "%ms.list contains %s";
+"%ms.list contains %s" = "%ms.list 是否包含 %s";
 
 /* selector = whenStartPlay */
-"When starting to play" = "When starting to play";
+"When starting to play" = "當開始執行時";
 
 /* selector = whenNodeTouched: */
-"When this character %ms.nodeTouchEvent" = "When this character %ms.nodeTouchEvent";
+"When this character %ms.nodeTouchEvent" = "當這個角色 %ms.nodeTouchEvent 時";
 
 /* selector = whenCollisionDetected: */
-"When %ms.collisionDevices collides" = "When %ms.collisionDevices collides";
+"When %ms.collisionDevices collides" = "當 %ms.collisionDevices 碰撞時";
 
 /* selector = whenSensor:greaterThan: */
-"When %ms.triggerSensor > %d" = "When %ms.triggerSensor > %d";
+"When %ms.triggerSensor > %d" = "當 %ms.triggerSensor > %d 時";
 
 /* selector = whenReceive: */
-"When I receive %ss.broadcast" = "When I receive %ss.broadcast";
+"When I receive %ss.broadcast" = "當我收到 %ss.broadcast 事件時";
 
 /* selector = broadcast: */
-"broadcast %s.broadcast" = "broadcast %s.broadcast";
+"broadcast %s.broadcast" = "發送 %s.broadcast 事件";
 
 /* selector = broadcastAndWait: */
-"broadcast %s.broadcast and wait" = "broadcast %s.broadcast and wait";
+"broadcast %s.broadcast and wait" = "發送 %s.broadcast 事件並等待";
 
 /* selector = wait: */
-"wait %d secs" = "wait %d secs";
+"wait %d secs" = "等待 %d 秒";
 
 /* selector = waitUntil: */
-"wait until %b" = "wait until %b";
+"wait until %b" = "等待直到 %b";
 
 /* selector = repeat:do: */
-"repeat %d times" = "repeat %d times";
+"repeat %d times" = "重複 %d 次";
 
 /* selector = foreverDo: */
-"forever" = "forever";
+"forever" = "不斷重複";
 
 /* selector = repeatUntil:do: */
-"repeat until %b" = "repeat until %b";
+"repeat until %b" = "重複直到 %b";
 
 /* selector = if:do: */
-"if %b then" = "if %b then";
+"if %b then" = "若 %b 就";
 
 /* selector = if:do:else: */
-"if %b then | else" = "if %b then | else";
+"if %b then | else" = "若 %b 就 | 否則";
 
 /* selector = stopScripts: */
-"stop %ms.stop" = "stop %ms.stop";
+"stop %ms.stop" = "停止 %ms.stop";
 
 /* selector = whenCloned */
-"When I start as a clone" = "When I start as a clone";
+"When I start as a clone" = "當我已分身出現時";
 
 /* selector = createCloneOf: */
-"create clone of %m.character" = "create clone of %m.character";
+"create clone of %m.character" = "創造 %m.character 的分身";
 
 /* selector = deleteClone */
-"delete this clone" = "delete this clone";
+"delete this clone" = "刪除這個分身";
 
 /* selector = isClone */
-"I am a clone" = "I am a clone";
+"I am a clone" = "我是分身";
 
 /* selector = touching: */
-"touching %m.touching ?" = "touching %m.touching ?";
+"touching %m.touching ?" = "碰到 %m.touching ?";
 
 /* selector = touchingColor: */
-"touching color %c?" = "touching color %c?";
+"touching color %c?" = "碰到顏色 %c ?";
 
 /* selector = color:sees: */
-"color %c is touching %c?" = "color %c is touching %c?";
+"color %c is touching %c?" = "%c 碰到 %c ?";
 
 /* selector = distanceTo: */
-"distance to %m.characterOrTouchPoint" = "distance to %m.characterOrTouchPoint";
+"distance to %m.characterOrTouchPoint" = "到 %m.characterOrTouchPoint 的距離";
 
 /* selector = ask: */
-"ask %s and wait" = "ask %s and wait";
+"ask %s and wait" = "問使用者 %s 並等待";
 
 /* selector = answer */
-"answer of last asked question" = "answer of last asked question";
+"answer of last asked question" = "使用者最後一次的答案";
 
 /* selector = touchingDown */
-"finger touching down?" = "finger touching down?";
+"finger touching down?" = "正在觸碰螢幕?";
 
 /* selector = touchPoint: */
-"%ms.xyAxis of touch point" = "%ms.xyAxis of touch point";
+"%ms.xyAxis of touch point" = "觸碰點的 %ms.xyAxis 軸座標";
 
 /* selector = soundLevel */
-"loudness" = "loudness";
+"loudness" = "收到的音量";
 
 /* selector = timer */
-"timer" = "timer";
+"timer" = "計時器的值";
 
 /* selector = timerReset */
-"reset timer" = "reset timer";
+"reset timer" = "重設計時器";
 
 /* selector = getAttribute:of: */
-"%ms._arg_input:objectOrStage.attribute of %m._refresh_.objectOrStage" = "%ms._arg_input:objectOrStage.attribute of %m._refresh_.objectOrStage";
+"%ms._arg_input:objectOrStage.attribute of %m._refresh_.objectOrStage" = "%m(1)._refresh_.objectOrStage 的 %ms(0)._arg_input:objectOrStage.attribute";
 
 /* selector = timeAndDate: */
-"current %ms.timeAndDate" = "current %ms.timeAndDate";
+"current %ms.timeAndDate" = "現在的 %ms.timeAndDate 數";
 
 /* selector = timestamp */
-"days since 2000" = "days since 2000";
+"days since 2000" = "從 2000 年開始 的第幾天";
 
 /* selector = accelerometer:of: */
-"accelerometer %ms.xyzAxis of %ms.accelerometerDevices" = "accelerometer %ms.xyzAxis of %ms.accelerometerDevices";
+"accelerometer %ms.xyzAxis of %ms.accelerometerDevices" = "%ms(1).accelerometerDevices 的 %ms(0).xyzAxis 軸的加速度";
 
 /* selector = attitude:of: */
-"attitude %ms.gyroDirections of %ms.attitudeDevices" = "attitude %ms.gyroDirections of %ms.attitudeDevices";
+"attitude %ms.gyroDirections of %ms.attitudeDevices" = "%ms(1).attitudeDevices 的 %ms(0).gyroDirections 的值";
 
 /* selector = gyroscope:of: */
-"gyroscope %ms.xyzAxis of %ms.gyroDevices" = "gyroscope %ms.xyzAxis of %ms.gyroDevices";
+"gyroscope %ms.xyzAxis of %ms.gyroDevices" = "%ms(1).gyroDevices 的 %ms(0).xyzAxis 軸的旋轉角度";
 
 /* selector = + */
 "%d + %d" = "%d + %d";
@@ -317,7 +317,7 @@
 "%d ÷ %d" = "%d ÷ %d";
 
 /* selector = % */
-"%d mod %d" = "%d mod %d";
+"%d mod %d" = "%d 除以 %d 的餘數";
 
 /* selector = < */
 "%s < %s" = "%s < %s";
@@ -335,37 +335,37 @@
 "%s >= %s" = "%s >= %s";
 
 /* selector = & */
-"%b and %b" = "%b and %b";
+"%b and %b" = "%b 且 %b";
 
 /* selector = ? */
-"if %b then %s else %s" = "if %b then %s else %s";
+"if %b then %s else %s" = "若 %b 則為 %s 否則為 %s";
 
 /* selector = | */
-"%b or %b" = "%b or %b";
+"%b or %b" = "%b 或 %b";
 
 /* selector = not */
-"not %b" = "not %b";
+"not %b" = "%b 不成立";
 
 /* selector = rounded */
-"round %d" = "round %d";
+"round %d" = "四捨五入 %d";
 
 /* selector = randomFrom:to: */
-"pick random from %d to %d" = "pick random from %d to %d";
+"pick random from %d to %d" = "從 %d 到 %d 隨機選一個數";
 
 /* selector = computeFunction:of: */
-"%ms.mathOperators of %d" = "%ms.mathOperators of %d";
+"%ms.mathOperators of %d" = "%d(1) %ms.mathOperators(0) 的值";
 
 /* selector = concatenate:with: */
-"join %s %s" = "join %s %s";
+"join %s %s" = "將 %s 接上 %s";
 
 /* selector = letter:of: */
-"letter %d of %s" = "letter %d of %s";
+"letter %d of %s" = "%s(1) 的第 %d(0) 個字";
 
 /* selector = transformString:of: */
-"%ms.strOperators of %s" = "%ms.strOperators of %s";
+"%ms.strOperators of %s" = "%ms.strOperators 的 %s";
 
 /* selector = stringLength: */
-"length of %s" = "length of %s";
+"length of %s" = "%s 的長度";
 
 /* selector = procDef */
 "define" = "define";
